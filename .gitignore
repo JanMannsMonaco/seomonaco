@@ -1,0 +1,6 @@
+# Never commit readable reports or secrets: only docs/ (encrypted output) is published
+*.plain.html
+src/
+.env
+decrypted/
+node_modules/
